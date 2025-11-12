@@ -1,0 +1,54 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "benchmarks", "benchmarks", "{66320409-64EC-F7C5-3DEF-65E7510DAAD1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72D-47B6-A68D-7590B98EB39B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{0AB3BF05-4346-4AA6-1389-037BE0695223}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CopilotLunchAndLearn.Benchmarks", "benchmarks\CopilotLunchAndLearn.Benchmarks\CopilotLunchAndLearn.Benchmarks.csproj", "{8CA39A92-C80F-19E9-2592-D2AA94A7CECE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CopilotLunchAndLearn", "src\CopilotLunchAndLearn\CopilotLunchAndLearn.csproj", "{B613FA7F-7CC5-3EE9-2DB3-EE334D50562A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CopilotLunchAndLearn.Core", "src\CopilotLunchAndLearn.Core\CopilotLunchAndLearn.Core.csproj", "{8D66F807-41AB-0D1F-9DE7-F1B2A12BEFC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CopilotLunchAndLearn.Tests", "tests\CopilotLunchAndLearn.Tests\CopilotLunchAndLearn.Tests.csproj", "{82C6C180-D35A-A99B-98FC-4E17BE5DD4E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CA39A92-C80F-19E9-2592-D2AA94A7CECE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CA39A92-C80F-19E9-2592-D2AA94A7CECE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CA39A92-C80F-19E9-2592-D2AA94A7CECE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CA39A92-C80F-19E9-2592-D2AA94A7CECE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B613FA7F-7CC5-3EE9-2DB3-EE334D50562A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B613FA7F-7CC5-3EE9-2DB3-EE334D50562A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B613FA7F-7CC5-3EE9-2DB3-EE334D50562A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B613FA7F-7CC5-3EE9-2DB3-EE334D50562A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D66F807-41AB-0D1F-9DE7-F1B2A12BEFC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D66F807-41AB-0D1F-9DE7-F1B2A12BEFC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D66F807-41AB-0D1F-9DE7-F1B2A12BEFC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D66F807-41AB-0D1F-9DE7-F1B2A12BEFC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82C6C180-D35A-A99B-98FC-4E17BE5DD4E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82C6C180-D35A-A99B-98FC-4E17BE5DD4E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82C6C180-D35A-A99B-98FC-4E17BE5DD4E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82C6C180-D35A-A99B-98FC-4E17BE5DD4E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8CA39A92-C80F-19E9-2592-D2AA94A7CECE} = {66320409-64EC-F7C5-3DEF-65E7510DAAD1}
+		{B613FA7F-7CC5-3EE9-2DB3-EE334D50562A} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{8D66F807-41AB-0D1F-9DE7-F1B2A12BEFC5} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{82C6C180-D35A-A99B-98FC-4E17BE5DD4E1} = {0AB3BF05-4346-4AA6-1389-037BE0695223}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FE7C6FAA-7977-4821-A604-A908EBA0D058}
+	EndGlobalSection
+EndGlobal

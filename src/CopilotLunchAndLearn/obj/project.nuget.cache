@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "LFKLFy/zRtk=",
+  "success": true,
+  "projectFilePath": "D:\\dev\\NTT\\L-n-L\\src\\CopilotLunchAndLearn\\CopilotLunchAndLearn.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\seuna\\.nuget\\packages\\system.commandline\\2.0.0-beta4.22272.1\\system.commandline.2.0.0-beta4.22272.1.nupkg.sha512"
+  ],
+  "logs": []
+}
