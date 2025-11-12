@@ -1,27 +1,21 @@
 using CopilotLunchAndLearn.Core;
-using Xunit;
-
-namespace CopilotLunchAndLearn.Tests;
 
 public class GreetingServiceTests
 {
     [Fact]
-    public void Greet_WithName_ReturnsPersonalGreeting()
+    public void Greet_ReturnsHelloName_ForValidName()
     {
-        var svc = new GreetingService();
-        var result = svc.Greet("Alice");
+        var service = new GreetingService();
+        var result = service.Greet("Alice");
         Assert.Equal("Hello, Alice!", result);
     }
 
-    [Theory]
-    [InlineData("")]
-    [InlineData("   ")]
-    [InlineData(null)]
-    public void Greet_EmptyOrNull_ReturnsGenericGreeting(string? name)
+    [Fact]
+    public void Greet_ReturnsHello_ForNullOrWhitespace()
     {
-        var svc = new GreetingService();
-        var result = svc.Greet(name ?? string.Empty);
-        Assert.Equal("Hello!", result);
+        var service = new GreetingService();
+        Assert.Equal("Hello!", service.Greet(null));
+        Assert.Equal("Hello!", service.Greet("   "));
+        Assert.Equal("Hello!", service.Greet(""));
     }
 }
-
